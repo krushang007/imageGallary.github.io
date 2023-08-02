@@ -50,11 +50,10 @@ body
 }
 .box1 div
 {
-    padding:0 0 2vh 2vh;
     color: white;
     background-image: linear-gradient(0deg,rgba(0,0,0,0.4) 0%,rgba(198, 32, 32, 0.01) 100%) ;
     position: absolute;
-    font-size:2vh;
+    font-size:4vh;
     bottom: 0.2rem;
     opacity: 0;
     height: auto;
@@ -76,8 +75,59 @@ body
 }
 .box1:hover div 
 {
+    padding: 0;
+    padding-bottom: 2vh;
     opacity: 1;
     transition:0.3s;
-    font-size: 2.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    transition:0.3s;
+    font-size: 5vh;
+}
+@media all and (max-width:491px)
+{
+    .box1{
+        width: 40%;
+    }
+    .box1 div
+    {
+        font-size: 4vw;
+    }
+    .box1:hover div 
+{
+    padding: 0;
+    padding-bottom: 2vh;
+    opacity: 1;
+    transition:0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    transition:0.3s;
+    font-size: 5vw;
+}
 }
 
+@media all and (max-width:171px)
+{
+    .box1{
+        width: 80%;
+    }
+    .box1 div
+    {
+        font-size: 8vw;
+    }
+    .box1:hover div 
+{
+    padding: 0;
+    padding-bottom: 2vh;
+    opacity: 1;
+    transition:0.3s;
+    font-size: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
