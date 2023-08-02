@@ -50,11 +50,11 @@ body
 }
 .box1 div
 {
-    padding:0 0 1rem 1rem;
+    padding:0 0 2vh 2vh;
     color: white;
     background-image: linear-gradient(0deg,rgba(0,0,0,0.4) 0%,rgba(198, 32, 32, 0.01) 100%) ;
     position: absolute;
-    font-size:1.35em;
+    font-size:2vh;
     bottom: 0.2rem;
     opacity: 0;
     height: auto;
@@ -78,6 +78,6 @@ body
 {
     opacity: 1;
     transition:0.3s;
-    font-size: 1.5em;
+    font-size: 2.5vh;
 }
 
